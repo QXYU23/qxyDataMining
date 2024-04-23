@@ -26,5 +26,10 @@
 ##### 下面的大方框是填写内容的部分
 ##### 点击commit changes，即可完成文件夹创建，具体操作如图所示
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/6%20%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.png)
+### 【5】删除文件
+##### 若在仓库页面，点击想要删除的文件所在的文件夹，如想要删除images中的temp，先点击images，进入下图界面
+##### 点击temp 文件，右上角有三个点，点击一下，会出来一些选项
+##### 选择Delete file，会出现一个是否选择提交的界面，点击绿色按钮，即可完成文件删除
+
 
 
