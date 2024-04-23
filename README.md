@@ -15,5 +15,15 @@
 ######   ③ 点击Commit changes 完成文件上传
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/4%20%20%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png)
 ### 【3】 创建文件：
-##### 点击create new file，进入如下界面，在仓库名字后面的方框内填入文件名字，下面的大方框内填写内容，最后点击commit changes即可完成文件创建
+##### 点击create new file，进入如下界面
+##### 在仓库名字后面的方框内填入文件名字
+##### 下面的大方框内填写内容
+##### 点击commit changes即可完成文件创建
+![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/5%20%20%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6.png)
+### 【4】创建文件夹
+##### 点击create new file，进入文件创建界面
+##### 在仓库名字后面填入文件名字加/，（注意：这是与创建文件的区别），但是会发现不能提交，原因是不允许创建空的文件夹，所以可以先随意创建一个文件，在文件夹名字后面的方框里再添一个文件名字
+##### 下面的大方框是填写内容的部分
+##### 点击commit changes，即可完成文件夹创建，具体操作如图所示
+
 
