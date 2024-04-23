@@ -31,6 +31,9 @@
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/7%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6.png)
 ##### 选择Delete file，会出现一个是否选择提交的界面，点击绿色按钮，即可完成文件删除
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/8%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B62.png)
+### 【6】上传图片
+##### 上传过程和上传文件过程一样，可以参考上传文件里面的操作，或者按照下图的操作进行均可
+
 
 
 
