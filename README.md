@@ -14,3 +14,6 @@
 ######   ② 文件描述部分，若需要对文件进行说明，可在此部分进行描述
 ######   ③ 点击Commit changes 完成文件上传
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/4%20%20%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png)
+### 【3】 创建文件：
+##### 点击create new file，进入如下界面，在仓库名字后面的方框内填入文件名字，下面的大方框内填写内容，最后点击commit changes即可完成文件创建
+
