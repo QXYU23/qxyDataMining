@@ -13,4 +13,4 @@
 ######   ① 文件上传有两种方式：一是直接将文件拖入框内，二是点击choose your file ，进入本地页面，然后找到需要的文件，选中，点击打开即可
 ######   ② 文件描述部分，若需要对文件进行说明，可在此部分进行描述
 ######   ③ 点击Commit changes 完成文件上传
-![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/4  上传文件.png)
+![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/4%20%20%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png)
