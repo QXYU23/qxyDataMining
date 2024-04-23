@@ -30,6 +30,7 @@
 ##### 若在仓库页面，点击想要删除的文件所在的文件夹，如想要删除images中的temp，先点击images，进入文件夹，点击temp 文件，右上角有三个点，点击一下，会出来一些选项
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/7%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6.png)
 ##### 选择Delete file，会出现一个是否选择提交的界面，点击绿色按钮，即可完成文件删除
+![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/8%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B62.png)
 
 
 
