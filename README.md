@@ -31,13 +31,11 @@
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/7%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6.png)
 ##### 选择Delete file，会出现一个是否选择提交的界面，点击绿色按钮，即可完成文件删除
 ![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/8%20%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B62.png)
-### 【6】上传图片
-##### 先按照文件夹创建过程创建一个放图片的文件夹，比如叫images，再按照上传文件的过程需要的图片上传，或者按照下图的操作进行均可
-![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/9.png）
-![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/10.png）
-![image](https://github.com/QXYU23/qxyDataMining/blob/main/images/11.png）
-### 【7】在readme中如何引用图片
-##### 先将需要用到的图片上传到仓库中，具体步骤可参考上传图片；在仓库中先找到图片位置
+###
+### 【6】
+##### 
+### 【7】
+##### 
 
 
 
