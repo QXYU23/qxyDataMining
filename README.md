@@ -124,6 +124,6 @@ NIN中提出了GAP、1x1卷积![12](https://github.com/QXYU23/qxyDataMining/blob
 
 ![18](https://github.com/QXYU23/qxyDataMining/blob/main/images/18.png)
 
-![19](Chttps://github.com/QXYU23/qxyDataMining/blob/main/images/19.png)
+![19](https://github.com/QXYU23/qxyDataMining/blob/main/images/19.png)
 
 ​       总的来说，加入的对比学习是为了同时保留两种模态的典型特征并避免在融合结果中出现伪影，方式采用的是在损失函数中开发了一种耦合对比约束。在融合图像中，其前景目标/背景细节部分在表示空间中被拉近到红外/可见源并远离可见/红外源，进一步利用图像特征提供数据敏感权重（这一块指的是自适应的权重），使损失函数能够与源图像建立更可靠的关系。注意，在训练阶段没有引入对比损失，而是在微调的时候引入对比损失。
