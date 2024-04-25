@@ -7,36 +7,36 @@
 ![1](https://github.com/QXYU23/qxyDataMining/blob/main/images/1.png)
 
 ###### （3）出现“Create a new repository”界面，先填写仓库名字，在仓库描述部分，可进行仓库描述，但是这部分是非必要的，接着选择公开或私有，记得勾选一下readme，最后点击Create repository绿色按钮，即可创建新的仓库
-![2](C:\Users\17723\Desktop\images\2.png)
+![2](https://github.com/QXYU23/qxyDataMining/blob/main/images/2.png)
 
 ####       按照上述步骤创建完仓库，进入如图所示界面，点击 Add file 出现create new file和upload file 两个选择，可根据需要进行选择，具体操作如图所示
 
-![3](C:\Users\17723\Desktop\images\3.png)
+![3](https://github.com/QXYU23/qxyDataMining/blob/main/images/3.png)
 #### 【2】上传文件：
 ###### （1）点击upload file，出现如下图界面，上传过程可分为三步：
 ######   ① 文件上传有两种方式：一是直接将文件拖入框内，二是点击choose your file ，进入本地页面，然后找到需要的文件，选中，点击打开即可
 ######   ② 文件描述部分，若需要对文件进行说明，可在此部分进行描述
 ######   ③ 点击Commit changes 完成文件上传
-![4](C:\Users\17723\Desktop\images\4.png)
+![4](https://github.com/QXYU23/qxyDataMining/blob/main/images/4.png)
 #### 【3】 创建文件：
 ###### ① 点击create new file，进入如下界面
 ###### ② 在仓库名字后面的方框内填入文件名字
 ###### ③ 下面的大方框内填写内容
 ###### ④ 点击commit changes即可完成文件创建
-![5](C:\Users\17723\Desktop\images\5.png)
+![5](https://github.com/QXYU23/qxyDataMining/blob/main/images/5.png)
 #### 【4】创建文件夹
 ###### ① 点击create new file，进入文件创建界面
 ###### ② 在仓库名字后面填入文件名字加/，（注意：这是与创建文件的区别），但是会发现不能提交，原因是不允许创建空的文件夹，所以可以先随意创建一个文件，在文件夹名字后面的方框里再添一个文件名字
 ###### ③ 下面的大方框是填写内容的部分
 ###### ④ 点击commit changes，即可完成文件夹创建，具体操作如图所示
-![6](C:\Users\17723\Desktop\images\6.png)
+![6](https://github.com/QXYU23/qxyDataMining/blob/main/images/6.png)
 
 #### 【5】删除文件
 
 ###### 若在仓库页面，点击想要删除的文件所在的文件夹，如想要删除images中的temp，先点击images，进入文件夹，点击temp 文件，右上角有三个点，点击一下，会出来一些选项
-![7](C:\Users\17723\Desktop\images\7.png)
+![7](https://github.com/QXYU23/qxyDataMining/blob/main/images/7.png)
 ###### 选择Delete file，会出现一个是否选择提交的界面，点击绿色按钮，即可完成文件删除
-![8.1](C:\Users\17723\Desktop\images\8.1.png)
+![8.1](https://github.com/QXYU23/qxyDataMining/blob/main/images/8.1.png)
 
 ### 二、想要学习的内容
 #### 【1】什么是类激活映射，如何将其应用在图像融合中？
@@ -47,13 +47,13 @@
 
 ​      有三个用处：1、同一张图像，根据不同类别绘制不同的热力图 2、潜在的注意力机制 3、弱监督学习：图像分类---->完成定位
 
-​      框架图：![8](C:\Users\17723\Desktop\images\8.png)
+​      框架图：![8](https://github.com/QXYU23/qxyDataMining/blob/main/images/8.png)
 
 ​     分析:（1）类别c的线性分类logit分数：
 
-![9](C:\Users\17723\Desktop\images\9.png)
+![9](https://github.com/QXYU23/qxyDataMining/blob/main/images/9.png)
 
-​             （2）类别c的类别概率映射Mc：![10](C:\Users\17723\Desktop\images\10.png)
+​             （2）类别c的类别概率映射Mc：![10](https://github.com/QXYU23/qxyDataMining/blob/main/images/10.png)
 
 ​       每个特征图的通道代表了一个卷积核从图像中提取出的一类视觉特征。Wc权重间接反映了该特征对类别c的重要程度。接着通过上采样，将14x14的特征图缩放到原输入图像尺寸。
 
@@ -63,15 +63,15 @@
 
 ​      全局平局池化(GAP)：全局平均池化（GAP） 取代了全连接层，减少了参数量、防止过拟合。而且每个GAP平均值，间接代表了卷积层最后一层输出的每个channel。CAM算法中，必须有GAP层，否则无法计算每个channel的权重。[缺点]
 
-![11](C:\Users\17723\Desktop\images\11.png)
+![11](https://github.com/QXYU23/qxyDataMining/blob/main/images/11.png)
 
-NIN中提出了GAP、1x1卷积![12](C:\Users\17723\Desktop\images\12.png)
+NIN中提出了GAP、1x1卷积![12](https://github.com/QXYU23/qxyDataMining/blob/main/images/12.png)
 
  **CAM算法缺点：** 必须有GAP层，否则得修改模型结构后重新训练；只能分析最后一层卷积层输出，无法分析中间层
 
-改进工作：Grad-CAM ：不需要GAP，可以分析中间层![13](C:\Users\17723\Desktop\images\13.png)
+改进工作：Grad-CAM ：不需要GAP，可以分析中间层![13](https://github.com/QXYU23/qxyDataMining/blob/main/images/13.png)
 
-轻量级网络：最后一层卷积层直接输出对于类别数的channel数特征图![14](C:\Users\17723\Desktop\images\14.png)
+轻量级网络：最后一层卷积层直接输出对于类别数的channel数特征图![14](https://github.com/QXYU23/qxyDataMining/blob/main/images/14.png)
 
 **②如何将其用在图像融合中？**
 
@@ -85,7 +85,7 @@ NIN中提出了GAP、1x1卷积![12](C:\Users\17723\Desktop\images\12.png)
 
 ​           对比式学习着重于学习同类实例之间的共同特征，区分非同类实例之间的不同之处。与生成式学习比较，对比式学习不需要关注实例上繁琐的细节，只需要在抽象语义级别的特征空间上学会对数据的区分即可，因此模型以及其优化变得更加简单，且泛化能力更强。**对比学习**的目标是学习一个编码器，此编码器**对同类数据进行相似的编码，并使不同类的数据的编码结果尽可能的不同**。对比学习是一种特殊的无监督学习方法。通用的框架如下：
 
-![15](C:\Users\17723\Desktop\images\15.jpg)
+![15](https://github.com/QXYU23/qxyDataMining/blob/main/images/15.png)
 
 （1）Positive和Anchor组成一组正样本对，这里Anchor可以是图片，可以是音频，可以是特征；Positive和Anchor一样，可以是多种数据类型，而且不一定要和Anchor是同种数据类型（比如[CLIP](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2103.00020v1.pdf)）；
 
@@ -101,7 +101,7 @@ NIN中提出了GAP、1x1卷积![12](C:\Users\17723\Desktop\images\12.png)
 
 ● 数据聚类：对于不同视角、传感器、模式获取的同一对象数据，为正样本，其余数据都为负样本。
 
-②**多特征集成的耦合对比学习网络：**![16](C:\Users\17723\Desktop\images\16.png)
+②**多特征集成的耦合对比学习网络：**![16](https://github.com/QXYU23/qxyDataMining/blob/main/images/16.png)
 
 （1）动机：我们认为红外和可见光图像融合（IVIF）的目标是保留两种模态的互补信息，同时消除冗余信息。然而，IVIF任务没有显式指导的监督信号。为了解决这个问题，现有的工作只在损失函数中设计结构或像素级别的项，这并不能确保模型通过有效特征进行优化，
 例如大多数红外图像中的模糊纹理或可见光图像中的暗目标不应成为有效的监督信号。因此，融合结果的目标/细节通常包含令人不快的伪影。
@@ -116,14 +116,14 @@ NIN中提出了GAP、1x1卷积![12](C:\Users\17723\Desktop\images\12.png)
 ​         我们认为理想的特征作为正负样本包含在源图像中。具体地，**对于红外图像，其前景显著的热目标相比其他部分更具吸引力。类似地，在可见光图像中，背景丰富的纹理细节相比其黑暗的前景部分需求更高**。我们利用这一先验来构建对比对，使得我们的模型可以学习区分具有高像素强度的显著目标和背景的纹理细节。最终，模型意识到来自源图像的典型特征，实现了互补融合。针对融合结果基于两组约束的两个目标进行了两个目标的设定：为了提高前景对象的显著性，从红外图像中提取的相应目标被用作正样本，而来自可见图像的相应区域被用作负样本。同时，当需要保留融合结果中清晰的背景细节时，将可见图像设置为正样本，红外图像设置为负样本。为了最大化上述目标，我们引入人工先验，根据TNO数据集中典型红外图像生成相应图像对的手动生成的掩模。如图2所示，让M表示前景的显著掩模，M表示背景的显著掩模（M = 1−M）。这种显式指导迫使模型区分显著性和纹理细节，并能够从可见光和热传感器中提取并融合它们。为此，为了提高前景显著性而选择的正负样本，称为目标约束，应为IR * M和IV * M。对于潜在特征空间，我们选择了常用的预训练权重的VGG-19，表示为G。我们将这一目标的损失函数定义为：
 
 
-![17](C:\Users\17723\Desktop\images\17.png)
+![17](https://github.com/QXYU23/qxyDataMining/blob/main/images/17.png)
 
 ​        为此，为了提高前景显著性而选择的正负样本，称为目标约束，应为IR * M和IV * M。对于潜在特征空间，选择常用的预训练权重的VGG-19，表示为G。我们将这一目标的损失函数定义为：
 
 
 
-![18](C:\Users\17723\Desktop\images\18.png)
+![18](https://github.com/QXYU23/qxyDataMining/blob/main/images/18.png)
 
-![19](C:\Users\17723\Desktop\images\19.png)
+![19](Chttps://github.com/QXYU23/qxyDataMining/blob/main/images/19.png)
 
 ​       总的来说，加入的对比学习是为了同时保留两种模态的典型特征并避免在融合结果中出现伪影，方式采用的是在损失函数中开发了一种耦合对比约束。在融合图像中，其前景目标/背景细节部分在表示空间中被拉近到红外/可见源并远离可见/红外源，进一步利用图像特征提供数据敏感权重（这一块指的是自适应的权重），使损失函数能够与源图像建立更可靠的关系。注意，在训练阶段没有引入对比损失，而是在微调的时候引入对比损失。
