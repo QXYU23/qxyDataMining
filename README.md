@@ -92,7 +92,7 @@ NIN中提出了GAP、1x1卷积
 
 ​      对比式学习着重于学习同类实例之间的共同特征，区分非同类实例之间的不同之处。与生成式学习比较，对比式学习不需要关注实例上繁琐的细节，只需要在抽象语义级别的特征空间上学会对数据的区分即可，因此模型以及其优化变得更加简单，且泛化能力更强。**对比学习**的目标是学习一个编码器，此编码器**对同类数据进行相似的编码，并使不同类的数据的编码结果尽可能的不同**。对比学习是一种特殊的无监督学习方法。通用的框架如下：
 
-![15](https://github.com/QXYU23/qxyDataMining/blob/main/images/15.png)
+![15](https://github.com/QXYU23/qxyDataMining/blob/main/images/15.jpg)
 
 （1）Positive和Anchor组成一组正样本对，这里Anchor可以是图片，可以是音频，可以是特征；Positive和Anchor一样，可以是多种数据类型，而且不一定要和Anchor是同种数据类型（比如[CLIP](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2103.00020v1.pdf)）；
 
